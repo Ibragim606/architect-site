@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(17,17,17,0.9);
+    border-bottom: 1px solid #222;
+    z-index: 10;
+}
+
+.logo {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    line-height: 1.1;
+}
+
+.hero p {
+    margin-top: 15px;
+    color: #aaa;
+}
+
+/* ABOUT */
+.about {
+    padding: 120px 70px;
+    max-width: 700px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.about p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+/* PROJECTS */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* CONTACT */
+.contact {
+    padding: 120px 70px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 13px;
+    color: #666;
+}
